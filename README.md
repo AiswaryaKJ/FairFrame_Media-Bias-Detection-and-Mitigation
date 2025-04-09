@@ -13,7 +13,6 @@ Fairframe supports a full bias moderation pipeline:
 
 🛠️ Easy to integrate and built for real-world application in journalism and NLP research.
 
-Whether you're a researcher, journalist, or developer, Fairframe provides an accessible framework for studying, measuring, and countering media bias in a responsible, scalable way.
 ---
 
 ## 📁 Dataset Sources
