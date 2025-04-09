@@ -1,9 +1,19 @@
 # FairFrame_Media-Bias-Detection-and-Mitigation
+Fairframe is an AI-powered system for detecting and mitigating bias in media content. It combines state-of-the-art transformer models to analyze news text for subjective bias and rephrase biased content into neutral and objective language. This project is designed to promote responsible journalism, reduce misinformation, and empower readers with a clearer understanding of how bias shapes narratives.
 
-- **Bias Detection:** Fine-tuned BERT model trained for bias score prediction (0–10 scale).
-- **Bias Mitigation:** A T5-based rewriter trained on original + Mixtral-generated neutral sentences.
-- **Feedback Loop:** Re-evaluates mitigated text until the bias score is reduced adequately.
+Fairframe supports a full bias moderation pipeline:
 
+📊 Bias Detection using fine-tuned BERT models that score sentences on a 0–10 scale.
+
+✍️ Bias Mitigation using a T5-based model (assisted by Mixtral for training data generation) to rewrite biased text.
+
+🔁 Feedback Loop that re-evaluates mitigation until the output achieves a lower bias score.
+
+📚 Built on top of trusted datasets: BABE, BASIL, NPOV, and MBIB for training and evaluation.
+
+🛠️ Easy to integrate, extensible for multi-modal expansion (text + image), and built for real-world application in journalism and NLP research.
+
+Whether you're a researcher, journalist, or developer, Fairframe provides an accessible framework for studying, measuring, and countering media bias in a responsible, scalable way.
 ---
 
 ## 📁 Dataset Sources
