@@ -11,7 +11,7 @@ Fairframe supports a full bias moderation pipeline:
 
 📚 Built on top of trusted datasets: BABE, BASIL, NPOV, and MBIB for training and evaluation.
 
-🛠️ Easy to integrate, extensible for multi-modal expansion (text + image), and built for real-world application in journalism and NLP research.
+🛠️ Easy to integrate and built for real-world application in journalism and NLP research.
 
 Whether you're a researcher, journalist, or developer, Fairframe provides an accessible framework for studying, measuring, and countering media bias in a responsible, scalable way.
 ---
