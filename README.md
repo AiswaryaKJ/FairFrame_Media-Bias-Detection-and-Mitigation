@@ -9,10 +9,10 @@
 ## 📁 Dataset Sources
 
 This project combines multiple curated datasets got through the reference from MBIB :
-- [BABE](https://huggingface.co/datasets/babe)
-- [BASIL](https://github.com/successar/BASIL)
-- [NPOV Wikipedia Dataset](https://figshare.com/articles/dataset/Wikipedia_NPOV_Dataset/20607784)
-- [Multidimensional Bias](https://aclanthology.org/2023.acl-long.645/)
+- [BABE](https://www.kaggle.com/datasets/timospinde/mbib-media-bias-identification-benchmark)
+- [BASIL](https://www.kaggle.com/datasets/timospinde/mbib-media-bias-identification-benchmark)
+- [NPOV Wikipedia Dataset](https://www.kaggle.com/datasets/timospinde/mbib-media-bias-identification-benchmark)
+- [Multidimensional Bias](https://www.kaggle.com/datasets/timospinde/mbib-media-bias-identification-benchmark)
 
 ---
 
@@ -22,14 +22,7 @@ This project combines multiple curated datasets got through the reference from M
 - PyTorch / Huggingface Transformers
 - Google Colab
 - BERT (for bias detection)
-- T5 / Mixtral (for text mitigation)
-- ViT-B/32 (for multimodal expansion – optional)
+- T5 (for text mitigation)
+- Mixtral (mitigation dataset creation)
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/yourusername/fairframe.git
-cd fairframe
