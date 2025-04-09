@@ -8,11 +8,11 @@
 
 ## 📁 Dataset Sources
 
-This project combines multiple curated datasets:
+This project combines multiple curated datasets got through the reference from MBIB :
 - [BABE](https://huggingface.co/datasets/babe)
 - [BASIL](https://github.com/successar/BASIL)
 - [NPOV Wikipedia Dataset](https://figshare.com/articles/dataset/Wikipedia_NPOV_Dataset/20607784)
-- [MBIB Dataset](https://aclanthology.org/2023.acl-long.645/) – Multidimensional Bias in News
+- [Multidimensional Bias](https://aclanthology.org/2023.acl-long.645/)
 
 ---
 
